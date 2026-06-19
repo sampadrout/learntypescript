@@ -1,0 +1,27 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "How to write arrayes -------------------- Here is the master rule to help you remember. In almost all modern languages, square brackets represent a standard list or array.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "tsx watch src/index.index.ts",
+  "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampadrout/learntypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sampadrout/learntypescript/issues"
+  },
+  "homepage": "https://github.com/sampadrout/learntypescript#readme",
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
