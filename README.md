@@ -25,3 +25,9 @@ JSON Object:
   "name": "Alice",
   "hobbies": ["reading", "hiking", "coding"]
 }
+
+Arrow function anatomy
+------------------------
+const functionName = (parameters) => {
+    // code
+}
