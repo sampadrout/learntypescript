@@ -1,5 +1,5 @@
-const greet = () => {
-    console.log();
-}
+const numbers = [1, 2, 3];
 
-console.log(greet);
+const result = numbers.find(num => num > 2);
+
+console.log(result);

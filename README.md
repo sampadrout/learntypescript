@@ -31,3 +31,39 @@ Arrow function anatomy
 const functionName = (parameters) => {
     // code
 }
+
+const square = (x: number) => x * x;
+
+const greet = (name: string): string => {
+    return `Hello ${name}`;
+}
+
+10. Arrow Functions in Arrays
+const numbers = [1,2,3,4,5];
+numbers.forEach(num => {
+    console.log(num);
+});
+
+11. map()
+const numbers = [1,2,3];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+Output
+[2,4,6]
+
+12. filter()
+const numbers = [10,20,30,40];
+const result = numbers.filter(num => num > 20);
+console.log(result);
+
+Output
+[30,40]
+
+13. find()
+const numbers = [10,20,30,40];
+const result = numbers.find(num => num > 20);
+console.log(result);
+
+Output
+30
